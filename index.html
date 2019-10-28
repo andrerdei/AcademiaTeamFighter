@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Team Fighter Fitness</title>
+        <link rel="icon" href="img/logo_page_original.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/hamburguer_menu.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index_animations.css">
+        <link rel="stylesheet" href="css/animsition.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/animsition.min.js"></script>
+        <script src="js/fade_in.js"></script>
+        <script src="js/fade_up.js"></script>
+        
+    </head>
+    
+    <body>
+        <header>
+           <section class="gradient-header">
+                <img class="faixa-header" src="img/header_faixa_1.png" alt="Logotipo da Academia">
+                <img class="logo-pagina" src="img/logo_page.png" alt="Logotipo da Academia">
+            </section>
+            <section class="nav-header">
+                <nav class="menu-navegacao">
+                    <ul>
+                        <li class="primeira-secao"><img src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></li>
+                        <li class="segunda-secao"><a href="sobre_nos.html" class="animsition-link"><img src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a></li>
+                        <li class="terceira-secao"><a href="assessoria.html" class="animsition-link"><img src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></a></li>
+                    </ul>
+                </nav>
+                <nav class="menu menu-hamburguer">
+                    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                    <label class="menu-open-button" for="menu-open">
+                        <span class="lines line-1"></span>
+                        <span class="lines line-2"></span>
+                        <span class="lines line-3"></span>
+                    </label>
+                    <a href="#" class="menu-item blue"></a>
+                    <a href="#" class="menu-item green"></a>
+                    <a href="#" class="menu-item red"></a>
+                    <a href="index.html" class="menu-item purple animsition-link"><img class="menu-item purple" src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></a>
+                    <a href="sobre_nos.html" class="menu-item orange animsition-link"><img class="menu-item orange" src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a>
+                    <a href="assessoria.html" class="menu-item lightblue animsition-link"><img class="menu-item lightblue" src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></a>
+                </nav>
+            </section>
+        </header>
+        
+        <main> 
+            <!-- PRIMEIRA SEÇÃO -->
+            <section class="container programa-emagrecimento animsition" 
+                     data-animsition-in-class="fade-in" data-animsition-in-duration="500"
+                     data-animsition-out-class="fade-out" data-animsition-out-duration="1000">
+                <div class="background-image-1 fixed-background">
+                    <div class="faixa-piramide-7"></div>
+                    <div class="faixa-piramide-6"></div>
+                    <div class="faixa-piramide-5"></div>
+                    <div class="faixa-piramide-4"></div>
+                    <div class="faixa-piramide-3"></div>
+                    <div class="faixa-piramide-2"></div>
+                    <div class="faixa-piramide-1"></div>
+                    <div class="transition-fundo"><img class="imagem-transition-fundo" src="img/logo_page.png"></div>     
+                    <div class="container-inner background-interno-1">
+                        <img class="titulo-1" src="img/titulo_image_1.png" alt="Título da Página">
+                        <ul class="info-lista">
+                            <li class="info-0"><img src="img/info_image_topo.png" alt="Informação Sobre o Produto"></li>
+                            <li class="info-1"></li>
+                            <li class="info-2"></li>
+                            <li class="info-3"></li>
+                            <li class="info-4"></li>
+                        </ul>
+                        <ul class="info-lista-img">
+                            <img class= "img-1" src="img/info_image_1.png" alt="Informação Sobre o Produto">
+                            <img class= "img-2" src="img/info_image_2.png" alt="Informação Sobre o Produto">
+                            <img class= "img-3" src="img/info_image_3.png" alt="Informação Sobre o Produto">
+                            <img class= "img-4" src="img/info_image_4.png" alt="Informação Sobre o Produto">
+                        </ul>
+                        
+                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+                            <input type="hidden" name="code" value="F75F952987875991141E4F87468D7490" />
+                            <input type="hidden" name="iot" value="button" />
+                            <input type="image" src="img/pagseguro3_image.png" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                        </form>
+                        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <ul class="menu-redes-sociais">
+                <li class="facebook-icone">
+                    <a href="https://www.facebook.com/TeamFighterFitness/" target="_blank"><img src="img/facebook_icon.png" alt="Icone de Rede Social"></a>
+                </li>
+                <li class="instagram-icone">
+                    <a href="https://www.instagram.com/fabioparoloprl/?hl=pt-br" target="_blank"><img src="img/instagram_icon.png" alt="Icone de Rede Social"></a>
+                </li>
+                <li class="whatsapp-icone">
+                    <a href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank"><img src="img/whatsapp_icon.png" alt="Icone de Rede Social"></a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+    </body>
+</html>

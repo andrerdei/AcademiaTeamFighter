@@ -1,0 +1,554 @@
+/* Sobre Nós */
+
+.background-interno-3{
+    height: 100vh;
+    background: none;
+}
+
+.menu-navegacao .segunda-secao img:hover{
+    transform: scale(1);
+    border-radius: 1vh;
+    transition: 1s ease;
+}
+
+.sobre-nos .transition-fundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: white;
+    opacity: 1;
+    z-index: 9;
+}
+
+.sobre-nos .imagem-transition-fundo{
+    display: block;
+    margin: auto;
+}
+
+
+/* @medias 'retrato' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .sobre-nos .imagem-transition-fundo{
+        width: 35vh;
+        margin-top: 25vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .sobre-nos .imagem-transition-fundo{
+        width: 40vh;
+        margin-top: 25vh;
+    }
+}
+
+
+/* @medias 'paisagem' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .sobre-nos .imagem-transition-fundo{
+        width: 35vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .sobre-nos .imagem-transition-fundo{
+        width: 30vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .imagem-transition-fundo{
+        width: 25vw;
+        margin-top: 18vh;
+    }
+}
+
+.sobre-nos .background-interno-opaco-1{
+    height: 35vh;
+    background: white;  
+}
+
+.sobre-nos .background-interno-opaco-2{
+    height: 65vh;
+    background: rgba(60,60,60,.8);
+}
+
+.sobre-nos .bloco-info-1{
+    background:
+    linear-gradient(to bottom, white 0%,  silver 200%);
+    font-size: 10vh;
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
+    top: 38vh;
+    right: 35vw;
+    box-shadow: inset 0vh 0vh 1vh .1vh black;
+}
+
+.sobre-nos .faixa-1{
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(0,0,40,1) 100%);
+    font-size: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: 1vh;
+    top: 35.1vh;
+    right: -100vw;
+    box-shadow: .3vh .1vh .2vh 0vh black;
+}
+
+.sobre-nos .faixa-2{
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(70,70,70,1) 100%);
+    font-size: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: 1vh;
+    top: 36.5vh;
+    left: -100vw;
+    box-shadow: .3vh .1vh .2vh 0vh black;
+}
+
+.sobre-nos .faixa-3{
+    background: none;
+    font-size: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: .1vh;
+    top: 35vh;
+    left: 0;
+    box-shadow: .1vh .1vh .3vh .1vh black;
+}
+
+.sobre-nos .imagem-motivacional-1-div{
+    width: 100vw;
+    height: 35vh;
+    position: absolute;
+    right: 0;
+    top: -.5vh;
+}
+
+.sobre-nos .imagem-motivacional-1{
+    width: 44vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1-div{
+        top: 2.8vh
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1-div{
+        top: 6.9vh
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1-div{
+        top: 10.9vh
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1{
+        width: 40vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1{
+        width: 35vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-1{
+        width: 30vh;
+    }
+}
+
+.sobre-nos .imagem-motivacional-2{
+    width: 8vh;
+    position: absolute;
+    left: 17vw;
+    top: 35vh
+}
+
+
+/* @medias 'retrato' (imagem-motivacional-2) */
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-2{
+        width: 7vh;
+        left: 12vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .imagem-motivacional-2{
+        width: 6vh;
+        left: 20vw;
+    }
+}
+
+.sobre-nos .imagem-fundo-opaco-1{
+    position: absolute;
+    left: 0vw;
+    top: 35vh;
+    z-index: -1;
+}
+
+.sobre-nos .texto-descritivo-1{
+    position: absolute;
+    top: 38vh;
+    left: 20vh;
+    width: 120vh;
+    height: 35vh;
+}
+
+
+/* @medias 'retrato' (texto-descritivo-1) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-1{
+        display: none;
+    }
+}
+
+
+/* @medias 'paisagem' (texto-descritivo-1) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        display: none;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 78vh;
+        height: 22vh;
+        top: 44vh;
+        left: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 90vh;
+        height: 25vh;
+        top: 44vh;
+        left: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 104vh;
+        height: 26vh;
+        top: 44vh;
+        left: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 112vh;
+        height: 28vh;
+        top: 42vh;
+        left: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 140vh;
+        height: 32vh;
+        top: 42vh;
+        left: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-1{
+        width: 140vh;
+        height: 32vh;
+        top: 42vh;
+        left: 35vh;
+    }
+}
+
+.sobre-nos .texto-descritivo-2{
+    position: absolute;
+    top: 70vh;
+    right: 10vh;
+    width: 90vh;
+    height: 30vh;
+}
+
+
+/* @medias 'retrato' (texto-descritivo-2) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-2{
+        display: none;
+    }
+}
+
+
+/* @medias 'paisagem' (texto-descritivo-2) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        display: none;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        width: 70vh;
+        height: 18vh;
+        top: 72vh;
+        right: 5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        width: 70vh;
+        height: 20vh;
+        top: 72vh;
+        right: 5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        width: 90vh;
+        height: 20vh;
+        top: 70vh;
+        right: 10vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        width: 100vh;
+        height: 25vh;
+        top: 68vh;
+        right: 10vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-2{
+        width: 100vh;
+        height: 25vh;
+        top: 68vh;
+        right: 20vh;
+    }
+}
+
+.sobre-nos .texto-descritivo-div{
+    position: absolute;
+    top: 43vh;
+    width: 100vw;
+}
+
+
+/* @media 'retrato' (texto-descritivo-div) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-div{
+        top: 41vh;
+    }
+}
+
+.sobre-nos .texto-descritivo-3{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80vh;
+}
+
+/* @medias 'retrato' (texto-descritivo-3) */
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-3{
+        width: 95vw;
+        position: absolute;
+        left: 2vh;
+        top: 2vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-3{
+        width: 95vw;
+        position: absolute;
+        left: 1.5vh;
+        top: 3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-3{
+        display: none;
+    }
+}
+
+
+/* @medias 'paisagem' (texto-descritivo-3) */
+
+@media screen and (min-aspect-ratio: 1000/899) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-3{
+        display: none;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-3{
+        margin-left: 15vw;
+    }
+}
+
+.sobre-nos .texto-descritivo-4{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80vh;
+}
+
+/* @medias 'retrato' (texto-descritivo-4) */
+
+@media screen and (min-aspect-ratio: 800/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-4{
+        width: 95vw;
+        position: absolute;
+        left: 2vh;
+        top: 33vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 800/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-4{
+        width: 95vw;
+        position: absolute;
+        left: 2vh;
+        top: 30vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-4{
+        display: none;
+    }
+}
+
+
+/* @medias 'paisagem' (texto-descritivo-4) */
+
+@media screen and (min-aspect-ratio: 1000/899) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-4{
+        display: none;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .sobre-nos .texto-descritivo-4{
+        margin-left: 15vw;
+    }
+}
+
+.sobre-nos .texto-descritivo-5{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75vw;
+}
+
+.sobre-nos .texto-descritivo-5{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75vw;
+}
+
+
+/* @medias 'retrato' (texto-descritivo-5) */
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-5{
+        width: 39vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .sobre-nos .texto-descritivo-5{
+        width: 98vw;
+    }
+}
+
+
+/* @media "display:none" (texto-descritivo-5) */
+
+@media screen and (min-aspect-ratio: 551/1000) and (max-aspect-ratio: 1000/1){
+    .sobre-nos .texto-descritivo-5{
+        display: none;
+    }
+}
+
+.sobre-nos .endereço-maps-div{
+    position: absolute;
+    top: 95vh;
+    width: 100vw;
+}
+
+.sobre-nos .endereço-maps{
+    width: 35vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 1vh;
+    box-shadow: 0vh .1vh .1vh .1vh rgba(0,0,0, .3);
+    background: rgba(95,95,95,.8);
+    transition: 1s;
+}
+
+
+/* @media "retrato" (endereço-maps-div) */
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 800/1000) and (orientation: portrait){
+    .sobre-nos .endereço-maps-div{
+        top: 94vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .endereço-maps-div{
+        top: 96vh;
+    }
+}
+
+
+/* @media "retrato" (endereço-maps) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .sobre-nos .endereço-maps{
+        width: 30vh;
+    }
+}
+
+
+/* @media "paisagem" (endereço-maps) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .sobre-nos .endereço-maps:hover{
+        background: rgba(255,110,0,1);
+    }
+}

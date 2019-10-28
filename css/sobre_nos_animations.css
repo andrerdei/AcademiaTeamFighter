@@ -1,0 +1,138 @@
+/* BACKGROUND INTERNO */
+
+.sobre-nos .background-interno-opaco-2{
+    -webkit-animation: interno-opaco-2 .7s ease-in-out;
+    -moz-animation: interno-opaco-2 .7s ease-in-out;
+    animation: interno-opaco-2 .7s ease-in-out;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes interno-opaco-2 {
+    0%{background: rgba(60,60,60,.8);}
+    100%{background: rgba(0,0,60,.7);}
+}
+
+@-moz-keyframes interno-opaco-2 {
+    0%{background: rgba(60,60,60,.8);}
+    100%{background: rgba(0,0,60,.7);}
+}
+
+@keyframes interno-opaco-2 { 
+    0%{background: rgba(60,60,60,.8);}
+    100%{background: rgba(0,0,60,.7);}
+}
+
+.sobre-nos .faixa-1{
+    -webkit-animation: faixa-horizontal-1 1.35s ease-in-out;
+    -moz-animation: faixa-horizontal-1 1.35s ease-in-out;
+    animation: faixa-horizontal-1 1.35s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(-100vw)}
+}
+
+@-moz-keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(-100vw)}
+}
+
+@keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(-100vw)}
+}
+
+
+.sobre-nos .faixa-2{
+    -webkit-animation: faixa-horizontal-2 1.35s ease-in-out;
+    -moz-animation: faixa-horizontal-2 1.35s ease-in-out;
+    animation: faixa-horizontal-2 1.35s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-horizontal-2 {
+    0%{}
+    100%{transform: translateX(100vw)}
+}
+
+@-moz-keyframes faixa-horizontal-2 {
+    0%{}
+    100%{transform: translateX(100vw)}
+}
+
+@keyframes faixa-horizontal-2 {
+    0%{}
+    100%{transform: translateX(100vw)}
+}
+
+
+/* TRANSITION FUNDO */
+
+.sobre-nos .transition-fundo{
+    -webkit-animation: fundo 1.2s ease-in-out;
+    -moz-animation: fundo 1.2s ease-in-out;
+    animation: fundo 3.2s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@-moz-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+
+/* TRANSITION FUNDO IMG */
+
+.sobre-nos .imagem-transition-fundo{
+    -webkit-animation: img-fundo 1.2s ease-in-out;
+    -moz-animation: img-fundo 1.2s ease-in-out;
+    animation: img-fundo 1s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+@-webkit-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@-moz-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}

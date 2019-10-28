@@ -1,0 +1,1602 @@
+/* PAGSEGURO */
+
+.programa-emagrecimento form input{
+    -webkit-animation: pagseguro 1.2s ease-in-out;
+    -moz-animation: pagseguro 1.2s ease-in-out;
+    animation: pagseguro 1.2s ease-in-out;
+    animation-delay: 4.05s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+
+/* @medias 'retrato' (form-pagseguro) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    @-webkit-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 46vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 46vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 46vw;}
+    }
+}
+
+
+/* @medias 'paisagem' (form-pagseguro) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    @-webkit-keyframes pagseguro {
+    0% {opacity: 0}
+    100%{opacity: 1;
+         left: 44vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 44vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 44vw;}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    @-webkit-keyframes pagseguro {
+    0% {opacity: 0}
+    100%{opacity: 1;
+         left: 45vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 45vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 45vw;}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    @-webkit-keyframes pagseguro {
+    0% {opacity: 0}
+    100%{opacity: 1;
+         left: 47vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 47vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 47vw;}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    @-webkit-keyframes pagseguro {
+    0% {opacity: 0}
+    100%{opacity: 1;
+         left: 42vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 42vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 42vw;}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    @-webkit-keyframes pagseguro {
+    0% {opacity: 0}
+    100%{opacity: 1;
+         left: 39vw;}
+    }
+
+    @-moz-keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 39vw;}
+    }
+
+    @keyframes pagseguro {
+        0% {opacity: 0}
+        100%{opacity: 1;
+             left: 39vw;}
+    }
+}
+
+
+/* TRANSITION FUNDO */
+
+.programa-emagrecimento .transition-fundo{
+    -webkit-animation: fundo 1.2s ease-in-out;
+    -moz-animation: fundo 1.2s ease-in-out;
+    animation: fundo 3.2s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@-moz-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+
+/* TRANSITION FUNDO IMG */
+
+.programa-emagrecimento .imagem-transition-fundo{
+    -webkit-animation: img-fundo 1.2s ease-in-out;
+    -moz-animation: img-fundo 1.2s ease-in-out;
+    animation: img-fundo 1s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+@-webkit-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@-moz-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+
+/* BACKGROUND INTERNO */
+
+.programa-emagrecimento .background-interno-1{
+    -webkit-animation: interno-1 1.2s ease-in-out;
+    -moz-animation: interno-1 1.2s ease-in-out;
+    animation: interno-1 1.2s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes interno-1 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@-moz-keyframes interno-1 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes interno-1 { 
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+/* FAIXA 1 */
+
+.programa-emagrecimento .faixa-piramide-1{
+    -webkit-animation: faixa-1 1s ease-out;
+    -moz-animation: faixa-1 1s ease-out;
+    animation: faixa-1 1s ease-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-1 {
+    0%{}
+    100%{transform: rotate(300deg)}
+}
+
+@-moz-keyframes faixa-1 {
+    0%{}
+    100%{transform: rotate(300deg)}
+}
+
+@keyframes faixa-1 { 
+    0%{}
+    100%{transform: rotate(20deg);}
+}
+
+
+/* FAIXA 3 */
+
+.programa-emagrecimento .faixa-piramide-3{
+    -webkit-animation: faixa-3 .8s ease-out;
+    -moz-animation: faixa-3 .8s ease-out;
+    animation: faixa-3 .8s ease-out;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-3 {
+    0%{opacity: .5;}
+    
+    100%{transform: translate(-10vh, -10vh);
+         opacity: 1;}
+}
+
+@-moz-keyframes faixa-3 {
+    0%{opacity: .5;}
+    
+    100%{transform: translate(-10vh, -10vh);
+         opacity: 1;}
+}
+
+@keyframes faixa-3 { 
+    0%{opacity: .5;}
+    
+    100%{transform: translate(-10vh, -10vh);
+         opacity: 1;}
+}
+
+
+/* FAIXA 5 */
+
+.programa-emagrecimento .faixa-piramide-5{
+    -webkit-animation: faixa-5 1s ease-out;
+    -moz-animation: faixa-5 1s ease-out;
+    animation: faixa-5 1s ease-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-5 {
+    0%{}
+    100%{transform: rotate(5deg)}
+}
+
+
+@-moz-keyframes faixa-5 {
+    0%{}
+    100%{transform: rotate(5deg)}
+}
+
+@keyframes faixa-5 { 
+    0%{}
+    100%{transform: rotate(5deg)}
+}
+
+
+/* FAIXA 6 */
+
+.programa-emagrecimento .faixa-piramide-6{
+    -webkit-animation: faixa-6 1s ease-out;
+    -moz-animation: faixa-6 1s ease-out;
+    animation: faixa-6 1s ease-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-6 {
+    0%{}
+    100%{transform: rotate(10deg)}
+}
+
+@-moz-keyframes faixa-6 {
+    0%{}
+    100%{transform: rotate(10deg)}
+}
+
+@keyframes faixa-6 { 
+    0%{}
+    100%{transform: rotate(10deg)}
+}
+
+
+/* FAIXA 7 */
+
+.programa-emagrecimento .faixa-piramide-7{
+    -webkit-animation: faixa-7 1s ease-out;
+    -moz-animation: faixa-7 1s ease-out;
+    animation: faixa-7 1s ease-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+
+@-webkit-keyframes faixa-7 {
+    0%{}
+    100%{transform: rotate(5deg)}
+}
+
+@-moz-keyframes faixa-7 {
+    0%{}
+    100%{transform: rotate(5deg)}
+}  
+
+@keyframes faixa-7 { 
+    0%{}
+    100%{transform: rotate(5deg)}
+}
+
+
+/* INFO SECTION */
+
+.programa-emagrecimento .info-0 img{
+    -webkit-animation: info-0 2.2s;
+    -moz-animation: info-0 2.2s;
+    animation: info-0 2.2s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes info-0 {
+    0%{opacity: .4;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes info-0 {
+    0%{opacity: .4;}
+    100%{opacity: 1;}
+}
+
+@keyframes info-0 {
+    0%{opacity: .4;}
+    100%{opacity: 1;}
+}
+
+.programa-emagrecimento .info-1{
+    -webkit-animation: info-1 .8s ease-out;
+    -moz-animation: info-1 .8s ease-out;
+    animation: info-1 .8s ease-out;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+
+/* @medias 'retrato' (info-1) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 27.5vh;
+        right: -27.5vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 23.5vh;
+        right: -23.5vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-23.5vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-23.5vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-23.5vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 26vh;
+        right: -26vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 22vh;
+        right: -22vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 20vh;
+        right: -20vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-20vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-20vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-20vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 18vh;
+        right: -18vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-18vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-18vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-18vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        width: 16vh;
+        right: -16vh;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-16vh);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-16vh);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-16vh);}
+    }
+}
+
+
+/* @medias 'paisagem' (info-1) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 29.5vw;
+        right: -29.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 29.5vw;
+        right: -29.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-29.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 25.5vw;
+        right: -25.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 26.5vw;
+        right: -26.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-26.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 25.5vw;
+        right: -25.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-25.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        width: 27.5vw;
+        right: -27.5vw;
+    }
+    
+    @-webkit-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vw);}
+    }
+
+    @-moz-keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vw);}
+    }
+
+    @keyframes info-1 {
+        0%{}
+        100%{transform: translateX(-27.5vw);}
+    }
+}
+
+.programa-emagrecimento .info-2{
+    -webkit-animation: info-2 .8s ease-out;
+    -moz-animation: info-2 .8s ease-out;
+    animation: info-2 .8s ease-out;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+
+/* @medias 'retrato' (info-2) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 35vh;
+        right: -35vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-35vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-35vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-35vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 31vh;
+        right: -31vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 32vh;
+        right: -32vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 28vh;
+        right: -28vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 26vh;
+        right: -26vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-26vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 24vh;
+        right: -24vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-24vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-24vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-24vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        width: 22vh;
+        right: -22vh;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-22vh);}
+    }
+}
+
+
+/* @medias 'paisagem' (info-2) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 36vw;
+        right: -36vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 36vw;
+        right: -36vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-36vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 32vw;
+        right: -32vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 32vw;
+        right: -32vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-32vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 30vw;
+        right: -30vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-30vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-30vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-30vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        width: 31vw;
+        right: -31vw;
+    }
+    
+    @-webkit-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vw);}
+    }
+
+    @-moz-keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vw);}
+    }
+
+    @keyframes info-2 {
+        0%{}
+        100%{transform: translateX(-31vw);}
+    }
+}
+
+.programa-emagrecimento .info-3{
+    -webkit-animation: info-3 .8s ease-out;
+    -moz-animation: info-3 .8s ease-out;
+    animation: info-3 .8s ease-out;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+
+/* @medias 'retrato' (info-3) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 42vh;
+        right: -42vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 38vh;
+        right: -38vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 38vh;
+        right: -38vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 34.5vh;
+        right: -34.5vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 32vh;
+        right: -32vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-32vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 30vh;
+        right: -30vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-30vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-30vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-30vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        width: 28vh;
+        right: -28vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-28vh);}
+    }
+}
+
+
+/* @medias 'paisagem' (info-3) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 42vh;
+        right: -42vh;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vh);}
+    }
+}
+
+
+/* @medias 'paisagem' (info-3) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 43vw;
+        right: -43vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-43vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-43vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-43vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 42vw;
+        right: -42vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 38vw;
+        right: -38vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-38vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 37vw;
+        right: -37vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-37vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-37vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-37vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 34.5vw;
+        right: -34.5vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-34.5vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        width: 35vw;
+        right: -35vw;
+    }
+    
+    @-webkit-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-35vw);}
+    }
+
+    @-moz-keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-35vw);}
+    }
+
+    @keyframes info-3 {
+        0%{}
+        100%{transform: translateX(-35vw);}
+    }
+}
+
+.programa-emagrecimento .info-4{
+    -webkit-animation: info-4 .8s ease-out;
+    -moz-animation: info-4 .8s ease-out;
+    animation: info-4 .8s ease-out;
+    animation-delay: 3.0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+
+/* @medias 'retrato' (info-4) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 50vh;
+        right: -50vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 46vh;
+        right: -46vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-46vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-46vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-46vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 44vh;
+        right: -44vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 41vh;
+        right: -41vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-41vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-41vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-41vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 39vh;
+        right: -39vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 37vh;
+        right: -37vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-37vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-37vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-37vh);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        width: 34vh;
+        right: -34vh;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-34vh);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-34vh);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-34vh);}
+    }
+}
+
+
+/* @medias 'paisagem' (info-4) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        width: 50vw;
+        right: -50vw;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vw);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vw);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-50vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        width: 48vw;
+        right: -48vw;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-48vw);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-48vw);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-48vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        width: 44vw;
+        right: -44vw;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vw);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vw);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-44vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        width: 42vw;
+        right: -42vw;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-42vw);}
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        width: 39vw;
+        right: -39vw;
+    }
+    
+    @-webkit-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vw);}
+    }
+
+    @-moz-keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vw);}
+    }
+
+    @keyframes info-4 {
+        0%{}
+        100%{transform: translateX(-39vw);}
+    }
+}

@@ -1,0 +1,1574 @@
+/* BOTÃO PAGSEGURO */
+
+.programa-emagrecimento form input{
+    position: absolute;
+    font-size: 40vh;
+    width: 20.5vw;
+    top: 20.5vh;
+    left: 38vw;
+    z-index: 100;
+    border-radius: 1.5vh;
+    opacity: 0;
+    transition: 1.2s;
+}
+
+.programa-emagrecimento form input:hover{
+    box-shadow: inset 0vh 0vh 1000vh 1000vh rgba(0,0,0,.5),
+                0vh 0vh 1000vh 1000vh rgba(0,0,0,.5);
+}
+
+
+/* @medias 'retrato' (form-pagseguro) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 35vw;
+        top: 24vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 750/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 38vw;
+        top: 23.3vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 750/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 38vw;
+        top: 28.5vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 700/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 39vw;
+        top: 28.5vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 45vw;
+        top: 28.3vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 45vw;
+        top: 31.8vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 47vw;
+        top: 31.2vh;
+        left: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento form input{
+        width: 49vw;
+        top: 34.2vh;
+        left: 38vw;
+    }
+}
+
+
+/* @medias 'paisagem' (form-pagseguro) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/950) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 35vw;
+        top: 25vh;
+        left: 36vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/950) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 35vw;
+        top: 23vh;
+        left: 36vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 35vw;
+        top: 22vh;
+        left: 36vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 33vw;
+        top: 22vh;
+        left: 36vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 32vw;
+        top: 21.5vh;
+        left: 42vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 32vw;
+        top: 18vh;
+        left: 42vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 30vw;
+        top: 18vh;
+        left: 44vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 28vw;
+        top: 18vh;
+        left: 46vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 26vw;
+        top: 19vh;
+        left: 55vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 24vw;
+        top: 19vh;
+        left: 65vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 24vw;
+        top: 16vh;
+        left: 70vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 22vw;
+        top: 17vh;
+        left: 72vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento form input{
+        width: 20vw;
+        top: 18vh;
+        left: 75vh;
+    }
+}
+
+
+
+/* Programa de Emagrecimento */
+
+.background-interno-1{
+    height: 100vh;
+    background: 
+    linear-gradient(170deg, rgba(255,255,255,1) 0%, transparent 40%);
+    opacity: 1;
+}
+
+.menu-navegacao .primeira-secao img:hover{
+    transform: scale(1);
+    border-radius: 1vh;
+    transition: 1s ease;
+}
+
+.programa-emagrecimento .transition-fundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: white;
+    opacity: 1;
+    z-index: 9;
+}
+
+.programa-emagrecimento .imagem-transition-fundo{
+    display: block;
+    margin: auto;
+}
+
+
+/* @medias 'retrato' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .imagem-transition-fundo{
+        width: 35vh;
+        margin-top: 25vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .imagem-transition-fundo{
+        width: 40vh;
+        margin-top: 25vh;
+    }
+}
+
+
+/* @medias 'paisagem' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .imagem-transition-fundo{
+        width: 35vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .imagem-transition-fundo{
+        width: 30vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .imagem-transition-fundo{
+        width: 25vw;
+        margin-top: 18vh;
+    }
+}
+
+.programa-emagrecimento .faixa-piramide-1{
+    background: linear-gradient(207deg, goldenrod 49.9%, transparent 50%);
+    position: absolute;
+    transform-origin: bottom;
+}
+
+
+/* @medias 'retrato' (.faixa-piramide-1) */
+
+@media screen and (orientation: portrait){
+    .programa-emagrecimento .faixa-piramide-1{
+        width: 150vh;
+        height: 150vh;
+        top: -100vh;
+        right: -18vh;
+    }
+}
+
+
+/* @medias 'retrato' (.faixa-piramide-1) */
+
+@media screen and (orientation: landscape){
+    .programa-emagrecimento .faixa-piramide-1{
+        width: 150vw;
+        height: 150vw;
+        top: -100vw;
+        right: -20vw;
+    }
+}
+
+.programa-emagrecimento .faixa-piramide-2{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(320deg, white 1.5%, transparent 1.7%);
+    position: absolute;
+    display: none;
+}
+
+.programa-emagrecimento .faixa-piramide-3{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(320deg, rgba(184,134,11,100) 10.8%, transparent 18%);
+    opacity: .5;
+    position: absolute;
+    top: 15vh;
+    right: -15vh;
+    transform-origin: bottom;
+}
+
+.programa-emagrecimento .faixa-piramide-4{
+    width: 150vw;
+    height: 150vh;
+    background: linear-gradient(312.5deg, rgba(0,0,40,.4) 36.5%, transparent 36.7%);
+    position: absolute;
+    top: -30vh;
+    left: -30vw;
+}
+
+.programa-emagrecimento .faixa-piramide-5{
+    width: 150vw;
+    height: 150vh;
+    background: linear-gradient(312.5deg, rgba(0,0,40,.4) 36.5%, transparent 36.7%);
+    position: absolute;
+    top: -30vh;
+    left: -30vw;
+    transform-origin: bottom;
+}
+
+.programa-emagrecimento .faixa-piramide-6{
+    width: 150vw;
+    height: 150vh;
+    background: linear-gradient(312.5deg, rgba(0,0,40,.4) 36.5%, transparent 36.7%);
+    position: absolute;
+    top: -30vh;
+    left: -30vw;
+    transform-origin: bottom;
+    
+}
+
+.programa-emagrecimento .faixa-piramide-7{
+    width: 150vw;
+    height: 150vh;
+    background: linear-gradient(312.5deg, rgba(40,0,40,.1) 36.5%, transparent 36.7%);
+    position: absolute;
+    top: -30vh;
+    left: -30vw;
+    transform-origin: bottom;
+}
+
+.programa-emagrecimento .titulo-1{
+    position: absolute;
+    font-size: 40vh;
+    top: 8vh;
+    left: 48vh;
+    width: 90vh;
+}
+
+
+/* @medias 'retrato' (titulo-1) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 16vh;
+        left: 11vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 750/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 16vh;
+        left: 9vh;
+        width: 75vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 750/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 22vh;
+        left: 8vh;
+        width: 75vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 700/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 22vh;
+        left: 6vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 22vh;
+        left: 2vh;
+        width: 90vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 26vh;
+        left: 2vh;
+        width: 90vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 26vh;
+        left: 1vh;
+        width: 95vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .programa-emagrecimento .titulo-1{
+        top: 30vh;
+        left: 1vh;
+        width: 95vw;
+    }
+}
+
+
+/* @medias 'paisagem' (titulo-1) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/950) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 16vh;
+        left: 11vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/950) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 14vh;
+        left: 11vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 12vh;
+        left: 11vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 12vh;
+        left: 13vh;
+        width: 80vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 12vh;
+        left: 18vh;
+        width: 80vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 8vh;
+        left: 20vh;
+        width: 84vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 8vh;
+        left: 24vh;
+        width: 86vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 5vw;
+        left: 16vw;
+        width: 86vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 5vw;
+        left: 18vw;
+        width: 86vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 5vw;
+        left: 21vw;
+        width: 86vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 4vw;
+        left: 24vw;
+        width: 90vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 2vw;
+        left: 20vw;
+        width: 98vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .titulo-1{
+        top: 2vw;
+        left: 20vw;
+        width: 105vh;
+    }
+}
+
+.programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+    font-size: 4.5vh;
+    height: 8vh;
+    position: absolute;
+}
+
+
+/* @medias 'retrato' (info (0-4)) */
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+        height: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+        height: 6vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info (0-4)) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+        height: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+        height: 8vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-0, .info-1, .info-2, .info-3, .info-4{
+        height: 10vh;
+    }
+}
+
+.programa-emagrecimento .info-0{
+    background-color: none;
+    top: 25vh;
+    right: 3vh;
+    width: 40vh;    
+}
+
+.programa-emagrecimento .info-1{
+    background: rgba(180,0,0);
+    top: 54vh;
+    right: -50em;
+    width: 50vh;
+    box-shadow: 0vh 0vh 0vh 0vh black, 0vh 0vh 0vh 0vh rgba(180,0,0);
+}
+
+
+/* @medias 'retrato' (info-1) */
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        top: 63vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-1{
+        top: 72vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-1) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        top: 63vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        top: 54vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-1{
+        top: 48vh;
+    }
+}
+
+.programa-emagrecimento .info-2{
+    background: rgba(154,134,11);
+    top: 65vh;
+    right: -50em;
+    width: 60vh;
+}
+
+
+/* @medias 'retrato' (info-2) */
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        top: 72vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-2{
+        top: 79vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-2) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        top: 72vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        top: 65vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-2{
+        top: 61vh;
+    }
+}
+
+.programa-emagrecimento .info-3{
+    background: rgba(220,140,40);
+    top: 76vh;
+    right: -50em;
+    width: 70vh;
+}
+
+
+/* @medias 'retrato' (info-3) */
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        top: 81vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-3{
+        top: 86vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-3) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        top: 81vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        top: 76vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-3{
+        top: 74vh;
+    }
+}
+
+.programa-emagrecimento .info-4{
+    background: rgba(0,200,0);
+    top: 87vh;
+    right: -50em;
+    width: 80vh;
+}
+
+
+/* @medias 'retrato' (info-4) */
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        top: 90vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-4{
+        top: 93vh;
+    }
+}
+
+.programa-emagrecimento .info-0 img, .info-1 img, .info-2 img, .info-3 img, .info-4 img{
+    font-size: 4.5vh;
+    position: absolute;
+}
+
+
+/* @medias 'paisagem' (info-4) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        top: 90vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-4{
+        top: 87vh;
+    }
+}
+
+.programa-emagrecimento .info-0 img{
+    width: 35vh;
+    top: 2.5vh;
+    right: 0vh;
+    opacity: 0.4;
+}
+
+
+/* @medias 'retrato' (info-0 img) */
+
+@media screen and (min-aspect-ratio: 930/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 22vh;
+        top: 25vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 900/1000) and (max-aspect-ratio: 930/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 20vh;
+        top: 25vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 840/1000) and (max-aspect-ratio: 900/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 19vh;
+        top: 26vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 780/1000) and (max-aspect-ratio: 840/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 19vh;
+        top: 27vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 780/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 18vh;
+        top: 28vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 20vh;
+        top: 34vh;
+        right: -2.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 580/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 19vh;
+        top: 36vh;
+        right: -2.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 580/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 17vh;
+        top: 37vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 420/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 15vh;
+        top: 38vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 420/1000) and (orientation: portrait){
+    .programa-emagrecimento .info-0 img{
+        width: 14vh;
+        top: 39.5vh;
+        right: -3.4vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-0 img) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/950) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 23vh;
+        top: 24vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/950) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 25vh;
+        top: 23vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 26vh;
+        top: 22vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 28vh;
+        top: 21vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 30vh;
+        top: 20vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 27vh;
+        top: 14vh;
+        right: -3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 29vh;
+        top: 13vh;
+        right: -2.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 32vh;
+        top: 11vh;
+        right: -2.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 32vh;
+        top: 8vh;
+        right: -1.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/520) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 34vh;
+        top: 7vh;
+        right: -1vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/520) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 35vh;
+        top: 5vh;
+        right: 0vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 38vh;
+        top: 0vh;
+        right: -1.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/420) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 42vh;
+        top: -3vh;
+        right: 0vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/420) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 43vh;
+        top: -3vh;
+        right: 2vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/375) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 46vh;
+        top: -3vh;
+        right: 3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/375) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .programa-emagrecimento .info-0 img{
+        width: 48vh;
+        top: -5vh;
+        right: 4vh;
+    }
+}
+
+.info-lista-img{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0em;
+    height: 0em;
+}
+
+.info-lista-img img{
+    position: fixed;
+    width: 20em;
+    display: block;
+}
+
+.info-lista-img .img-1{
+    width: 32vh;
+    top: 54.5vh;
+    right: 7vh;
+}
+
+
+/* @medias 'retrato' (info-1 img) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 21vh;
+        top: 64.2vh;
+        right: 3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 20vh;
+        top: 64.2vh;
+        right: 1vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 18vh;
+        top: 73.1vh;
+        right: 2vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 15vh;
+        top: 73.4vh;
+        right: 1.3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 15vh;
+        top: 73.4vh;
+        right: .8vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .info-lista-img .img-1{
+        width: 15vh;
+        top: 73.4vh;
+        right: .2vh;
+    }
+}
+
+/* @medias 'paisagem' (info-1 img) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 21vh;
+        top: 64.2vh;
+        right: 3vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 21vh;
+        top: 64.2vh;
+        right: 6vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 24vh;
+        top: 63.8vh;
+        right: 5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 26.5vh;
+        top: 55vh;
+        right: 4vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 26.5vh;
+        top: 55vh;
+        right: 5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 26.5vh;
+        top: 55vh;
+        right: 6vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 26.5vh;
+        top: 55vh;
+        right: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 32vh;
+        top: 54.5vh;
+        right: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 34vh;
+        top: 49.4vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 35vh;
+        top: 49.4vh;
+        right: 13vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .info-lista-img .img-1{
+        width: 35vh;
+        top: 49.4vh;
+        right: 18vh;
+    }
+}
+
+.info-lista-img .img-2{
+    width: 30vh;
+    top: 65.1vh;
+    right: 14vh;
+}
+
+
+/* @medias 'retrato' (info-2 img) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 21vh;
+        top: 72.8vh;
+        right: 8vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 20vh;
+        top: 73vh;
+        right: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 18vh;
+        top: 79.7vh;
+        right: 6vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 15vh;
+        top: 80vh;
+        right: 6vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 15vh;
+        top: 80vh;
+        right: 5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .info-lista-img .img-2{
+        width: 15vh;
+        top: 80vh;
+        right: 4vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-2 img) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 21vh;
+        top: 72.8vh;
+        right: 8vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 21vh;
+        top: 72.8vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 24vh;
+        top: 72.3vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 26.5vh;
+        top: 65.5vh;
+        right: 9vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 26.5vh;
+        top: 65.5vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 26.5vh;
+        top: 65.5vh;
+        right: 13vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 26.5vh;
+        top: 65.5vh;
+        right: 15vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 29.5vh;
+        top: 65.1vh;
+        right: 14.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 31.5vh;
+        top: 61.9vh;
+        right: 20.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 32.5vh;
+        top: 61.9vh;
+        right: 22.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .info-lista-img .img-2{
+        width: 32.5vh;
+        top: 61.9vh;
+        right: 29.5vh;
+    }
+}
+
+.info-lista-img .img-3{
+    width: 35vh;
+    top: 76.7vh;
+    right: 17vh;
+}
+
+
+/* @medias 'retrato' (info-3 img) */
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 24vh;
+        top: 82.3vh;
+        right: 13vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 23vh;
+        top: 82.4vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 21vh;
+        top: 87.1vh;
+        right: 9vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 18vh;
+        top: 87.4vh;
+        right: 8vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 18vh;
+        top: 87.4vh;
+        right: 7vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .info-lista-img .img-3{
+        width: 18vh;
+        top: 87.4vh;
+        right: 6vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-3 img) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 24vh;
+        top: 82.3vh;
+        right: 13vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 24vh;
+        top: 82.3vh;
+        right: 15vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 28vh;
+        top: 82vh;
+        right: 15vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 31vh;
+        top: 77.3vh;
+        right: 12vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 31vh;
+        top: 77.3vh;
+        right: 14vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 31vh;
+        top: 77.3vh;
+        right: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 31vh;
+        top: 77.3vh;
+        right: 18vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 36vh;
+        top: 76.7vh;
+        right: 17vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 37vh;
+        top: 75.8vh;
+        right: 23vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 37vh;
+        top: 75.8vh;
+        right: 26vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .info-lista-img .img-3{
+        width: 37vh;
+        top: 75.8vh;
+        right: 32vh;
+    }
+}
+
+.info-lista-img .img-4{
+    width: 41vh;
+    top: .5vh;
+    right: 20vh;
+}
+
+
+/* @medias 'retrato' (info-4 img) */
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 28vh;
+        top: 91.1vh;
+        right: 17vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 740/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 27vh;
+        top: 91.1vh;
+        right: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 740/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 24vh;
+        top: 94vh;
+        right: 14vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 440/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 21vh;
+        top: 94.3vh;
+        right: 12vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 440/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 21vh;
+        top: 94.3vh;
+        right: 11vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .info-lista-img .img-4{
+        width: 21vh;
+        top: 94.3vh;
+        right: 10vh;
+    }
+}
+
+
+/* @medias 'paisagem' (info-4 img) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 28vh;
+        top: 91.1vh;
+        right: 17vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/850) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 28vh;
+        top: 91.1vh;
+        right: 19vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/850) and (max-aspect-ratio: 1000/750) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 32vh;
+        top: 90.8vh;
+        right: 19vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/750) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 35vh;
+        top: 88.1vh;
+        right: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 35vh;
+        top: 88.1vh;
+        right: 18vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 35vh;
+        top: 88.1vh;
+        right: 21vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 35vh;
+        top: 88.1vh;
+        right: 23vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 40vh;
+        top: 87.5vh;
+        right: 21vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 42vh;
+        top: 88.6vh;
+        right: 30vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .info-lista-img .img-4{
+        width: 42vh;
+        top: 88.6vh;
+        right: 36vh;
+    }
+}

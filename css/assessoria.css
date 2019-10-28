@@ -1,0 +1,817 @@
+/* Assessoria Esportiva */
+
+.background-interno-2{
+    height: 100vh;
+    background:
+    linear-gradient(55deg, rgba(40,40,40,.2) 20%, transparent 50%, rgba(255,255,255,.8) 60%),
+    linear-gradient(65deg, rgba(40,40,40,.2) 20%, transparent 55%, rgba(255,165,0,.8) 65%);
+    opacity: 0.5;
+}
+
+.menu-navegacao .terceira-secao img:hover{
+    transform: scale(1);
+    border-radius: 1vh;
+    transition: 1s ease;
+}
+
+.assessoria-esportiva .transition-fundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: white;
+    opacity: 1;
+    z-index: 9;
+}
+
+.assessoria-esportiva .imagem-transition-fundo{
+    display: block;
+    margin: auto;
+}
+
+
+/* @medias 'retrato' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .assessoria-esportiva .imagem-transition-fundo{
+        width: 35vh;
+        margin-top: 25vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .imagem-transition-fundo{
+        width: 40vh;
+        margin-top: 25vh;
+    }
+}
+
+
+/* @medias 'paisagem' (imagem-transition-fundo) */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .assessoria-esportiva .imagem-transition-fundo{
+        width: 35vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .assessoria-esportiva .imagem-transition-fundo{
+        width: 30vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .assessoria-esportiva .imagem-transition-fundo{
+        width: 25vw;
+        margin-top: 18vh;
+    }
+}
+
+.assessoria-esportiva .faixa-horizontal-1{
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(70,70,70,.4) 100%);
+    font-size: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: .3vh;
+    top: 80vh;
+    left: -100vw;
+}
+
+@media screen and (orientation: portrait){
+    .assessoria-esportiva .faixa-horizontal-1{
+        height: .5vh;
+    }
+}
+
+
+/* @medias "retrato" faixa-horizontal-1 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .faixa-horizontal-1{
+        top: 82vh;
+    }
+}
+
+.assessoria-esportiva .faixa-horizontal-2{
+    background: linear-gradient(to left, rgba(70,70,70,.8) 0%, rgba(255,255,255) 500%);
+    font-size: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    top: 80vh;
+    right: 0;
+    box-shadow: inset 0vh .1vh 1vh 0vh darkslategrey,  0vh 0vh .5vh .1vh rgba(0,0,0,.5), 0vh 0vh .5vh .1vh rgba(255,255,255,.5);
+}
+
+
+/* @medias "retrato" faixa-horizontal-2 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .faixa-horizontal-2{
+        background: linear-gradient(to left, rgba(70,70,70,1) 0%, rgba(255,255,255) 500%);
+        height: 18vh;
+        top: 82vh;
+    }
+}
+
+
+/* @medias "paisagem" faixa-horizontal-2 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .faixa-horizontal-2{
+        background: linear-gradient(to left, rgba(70,70,70,1) 0%, rgba(255,255,255) 500%);
+    }
+}
+
+.assessoria-esportiva .titulo-1{
+    position: absolute;
+    font-size: 40vh;
+    top: -2vh;
+    left: 25vh;
+    width: 53vh;
+    height: 108.5vh;
+}
+
+
+/* @medias "retrato" titulo-1 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 53vh;
+        left: 2.5vh;
+        width: 39vw;
+        height: 30vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 51vh;
+        left: 2.5vh;
+        width: 38vw;
+        height: 32vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 48vh;
+        left: 2.5vh;
+        width: 35vw;
+        height: 35vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 750/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 43.5vh;
+        left: 2.5vh;
+        width: 35vw;
+        height: 40vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 750/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 40.5vh;
+        left: 2.5vh;
+        width: 35vw;
+        height: 43vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        top: 30.5vh;
+        left: 2.5vh;
+        width: 35vw;
+        height: 55vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+
+/* @medias "paisagem" titulo-1 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/950) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: 32vh;
+        left: 15vh;
+        width: 32vw;
+        height: 50vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/950) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: 28vh;
+        left: 15vh;
+        width: 32vw;
+        height: 55vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: 28vh;
+        left: 18vh;
+        width: 28vw;
+        height: 55vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: 22vh;
+        left: 20vh;
+        width: 26vw;
+        height: 62vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/549) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: 16vh;
+        left: 24vh;
+        width: 26vw;
+        height: 68vh;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/549) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: -2vh;
+        left: 11vw;
+        width: 53vh;
+        height: 108.5vh;
+        z-index: 0;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: -2vh;
+        left: 13.5vw;
+        width: 53vh;
+        height: 108.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/400) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: -2vh;
+        left: 15.5vw;
+        width: 53vh;
+        height: 108.5vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/400) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        top: -2vh;
+        left: 18vw;
+        width: 53vh;
+        height: 108.5vh;
+    }
+}
+
+.assessoria-esportiva .titulo-2{
+    position: absolute;
+    font-size: 40vh;
+    top: 61.5vh;
+    left: 35.5vw;
+    width: 70vh;
+    opacity: 0;
+}
+
+
+/* @medias "retrato" titulo-2 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-2{
+        top: 72.6vh;
+        left: 38.5vw;
+        width: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-2{
+        top: 71.2vh;
+        left: 37.5vw;
+        width: 23vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-2{
+        top: 70vh;
+        left: 34.5vw;
+        width: 26vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-2{
+        top: 68.5vh;
+        left: 34.5vw;
+        width: 29vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-2{
+        top: 65.5vh;
+        left: 33.5vw;
+        width: 35.5vh;
+    }
+}
+
+
+/* @medias "retrato" titulo-2 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .assessoria-esportiva .titulo-2{
+        top: 63.5vh;
+        left: 42.5vw;
+        width: 35vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .assessoria-esportiva .titulo-2{
+        top: 63.5vh;
+        left: 41.5vw;
+        width: 35vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .assessoria-esportiva .titulo-2{
+        top: 63.5vh;
+        left: 39vw;
+        width: 35vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .assessoria-esportiva .titulo-2{
+        top: 61.5vh;
+        left: 36vw;
+        width: 38vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .titulo-2{
+        top: 61vh;
+        left: 37vw;
+        width: 40vh;
+    }
+}
+
+.assessoria-esportiva .titulo-3{
+    position: absolute;
+    font-size: 40vh;
+    top: 77.8vh;
+    left: 42vw;
+    width: 49vh;
+    opacity: 0;
+}
+
+
+/* @medias "retrato" titulo-3 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 77.3vh;
+        left: 45vw;
+        width: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 500/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 76.7vh;
+        left: 44vw;
+        width: 18vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 500/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 76.2vh;
+        left: 41vw;
+        width: 20vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 750/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 75.2vh;
+        left: 40vw;
+        width: 23vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 750/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 75.2vh;
+        left: 39vw;
+        width: 23vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-3{
+        top: 73.5vh;
+        left: 38vw;
+        width: 29vh;
+    }
+}
+
+
+/* @medias "paisagem" titulo-3 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/900) and (orientation: landscape){
+    .assessoria-esportiva .titulo-3{
+        top: 71.8vh;
+        left: 46vw;
+        width: 28vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/900) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .assessoria-esportiva .titulo-3{
+        top: 71.8vh;
+        left: 45vw;
+        width: 28vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/700) and (orientation: landscape){
+    .assessoria-esportiva .titulo-3{
+        top: 71.8vh;
+        left: 42vw;
+        width: 28vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/700) and (max-aspect-ratio: 1000/600) and (orientation: landscape){
+    .assessoria-esportiva .titulo-3{
+        top: 71vh;
+        left: 39vw;
+        width: 30vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/600) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .titulo-3{
+        top: 70.5vh;
+        left: 40vw;
+        width: 32vh;
+    }
+}
+
+.assessoria-esportiva .texto-motivacional-1{
+    position: absolute;
+    font-size: 40vh;
+    top: 13vh;
+    right: -2vh;
+    width: 40vw;
+}
+
+
+/* @medias "retrato" texto-motivacional-1 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 18vh;
+        right: 0vh;
+        width: 65vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 450/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 17vh;
+        right: 0vh;
+        width: 62vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 450/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 16vh;
+        right: 0vh;
+        width: 58vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 600/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 15vh;
+        right: 0vh;
+        width: 55vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 600/1000) and (max-aspect-ratio: 700/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 15vh;
+        right: 2vh;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 15vh;
+        right: 4vh;
+        width: 42vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 14vh;
+        right: 1.5vh;
+        width: 42vw;
+    }
+}
+
+
+/* @medias "paisagem" texto-motivacional-1 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 10vh;
+        right: 1.5vh;
+        width: 42vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 8vh;
+        right: -2vh;
+        width: 40vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-1{
+        top: 8vh;
+        right: 0vh;
+        width: 35vw;
+    }
+}
+
+.assessoria-esportiva .texto-motivacional-2{
+    position: absolute;
+    font-size: 40vh;
+    top: 30vh;
+    right: 3vh;
+    width: 38vw;
+}
+
+
+/* @medias "retrato" texto-motivacional-2 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 400/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 23vh;
+        right: 0vh;
+        width: 73vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 450/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22.5vh;
+        right: 0vh;
+        width: 69vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 450/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22vh;
+        right: 0vh;
+        width: 65vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 700/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22vh;
+        right: 0vh;
+        width: 63vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 700/1000) and (max-aspect-ratio: 850/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22vh;
+        right: 3vh;
+        width: 52vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 850/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22vh;
+        right: 0vh;
+        width: 52vw;
+    }
+}
+
+
+/* @medias "paisagem" texto-motivacional-2 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/800) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 20vh;
+        right: 0vh;
+        width: 52vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/800) and (max-aspect-ratio: 1000/650) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 22vh;
+        right: 2vh;
+        width: 46vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/650) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 24vh;
+        right: 2vh;
+        width: 46vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/550) and (max-aspect-ratio: 1000/450) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 25vh;
+        right: 4vh;
+        width: 38vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/450) and (max-aspect-ratio: 1000/350) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 25vh;
+        right: 5vh;
+        width: 34vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/350) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .assessoria-esportiva .texto-motivacional-2{
+        top: 30vh;
+        right: 5vh;
+        width: 34vw;
+    }
+}
+
+.cref-image{
+    position: absolute;
+    font-size: 40vh;
+    top: 73vh;
+    right: 0vh;
+    width: 42vh;
+}
+
+
+/* @medias "retrato" cref-image */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .assessoria-esportiva .cref-image{
+        top: 85vh;
+        right: 1vh;
+        width: 24vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .assessoria-esportiva .cref-image{
+        top: 85vh;
+        right: 1vh;
+        width: 26vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .cref-image{
+        top: 85vh;
+        right: 1vh;
+        width: 28vh;
+    }
+}
+
+
+/* @medias "paisagem" cref-image */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .assessoria-esportiva .cref-image{
+        top: 83vh;
+        right: 1vh;
+        width: 30vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .assessoria-esportiva .cref-image{
+        top: 83vh;
+        right: 1vh;
+        width: 32vh;
+    }
+}
+
+.whatsapp-image{
+    position: absolute;
+    width: 5vh;
+    top: 91vh;
+    right: 15vh;
+}
+
+
+/* @medias "retrato" whatsapp-image */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 550/1000) and (orientation: portrait){
+    .whatsapp-image{
+        width: 5vh;
+        top: 91vh;
+        right: 15vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 550/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
+    .whatsapp-image{
+        width: 5.2vh;
+        top: 91.7vh;
+        right: 16vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .whatsapp-image{
+        width: 5.5vh;
+        top: 92.3vh;
+        right: 17vh;
+    }
+}
+
+
+/* @medias "paisagem" whatsapp-image */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/500) and (orientation: landscape){
+    .whatsapp-image{
+        width: 5.5vh;
+        top: 91.5vh;
+        right: 18vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/500) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .whatsapp-image{
+        width: 5.8vh;
+        top: 92vh;
+        right: 19vh;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/1) and (orientation: landscape){
+    .whatsapp-image:hover{
+        transform: scale(1.1);
+        transition: .7s;
+        transition-timing-function: cubic-bezier(.2, 5, 0, 0);
+    }
+}

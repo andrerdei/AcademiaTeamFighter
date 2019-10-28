@@ -1,0 +1,254 @@
+/* BACKGROUND INTERNO */
+
+.assessoria-esportiva .background-interno-2{
+    -webkit-animation: interno-2 2.5s ease-in-out;
+    -moz-animation: interno-2 2.5s ease-in-out;
+    animation: interno-2 2.5s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes interno-2 {
+    0%{opacity: 0.8}
+    100%{opacity: 1}
+}
+
+@-moz-keyframes interno-2 {
+    0%{opacity: 0.8}
+    100%{opacity: 1}
+}
+
+@keyframes interno-2 { 
+    0%{opacity: 0.8}
+    100%{opacity: 1}
+}
+
+
+/* TRANSITION FUNDO */
+
+.assessoria-esportiva .transition-fundo{
+    -webkit-animation: fundo 1.2s ease-in-out;
+    -moz-animation: fundo 1.2s ease-in-out;
+    animation: fundo 3.2s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@-moz-keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+@keyframes fundo {
+    0% {opacity: 1;}
+    70%{opacity: 1}
+    99%{z-index: 9;}
+    100%{opacity: 0;
+         z-index: 0;}
+}
+
+
+/* TRANSITION FUNDO IMG */
+
+.assessoria-esportiva .imagem-transition-fundo{
+    -webkit-animation: img-fundo 1.2s ease-in-out;
+    -moz-animation: img-fundo 1.2s ease-in-out;
+    animation: img-fundo 1s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+@-webkit-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@-moz-keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+@keyframes img-fundo {
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+/* FAIXA HORIZONTAL 1 */
+
+.assessoria-esportiva .faixa-horizontal-1{
+    -webkit-animation: faixa-horizontal-1 1.2s ease-in-out;
+    -moz-animation: faixa-horizontal-1 1.2s ease-in-out;
+    animation: faixa-horizontal-1 1.2s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(100vw);}
+}
+
+@-moz-keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(100vw);}
+}
+
+@keyframes faixa-horizontal-1 {
+    0%{}
+    100%{transform: translateX(100vw);}
+}
+
+
+/* FAIXA HORIZONTAL 2 */
+
+.assessoria-esportiva .faixa-horizontal-2{
+    -webkit-animation: faixa-horizontal-2 1.5s ease-in-out;
+    -moz-animation: faixa-horizontal-2 1.5s ease-in-out;
+    animation: faixa-horizontal-2 1.5s ease-in-out;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes faixa-horizontal-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@-moz-keyframes faixa-horizontal-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes faixa-horizontal-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+
+/* @medias "retrato" TÍTULO 1 */
+
+@media screen and (min-aspect-ratio: 1/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
+    .assessoria-esportiva .titulo-1{
+        -webkit-animation: titulo-1 2s ease-in-out;
+        -moz-animation: titulo-1 2s ease-in-out;
+        animation: titulo-1 2s ease-in-out;
+        animation-delay: 3.3s;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    @-webkit-keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+
+    @-moz-keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+
+    @keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+}
+
+
+/* @medias "paisagem" TÍTULO 1 */
+
+@media screen and (min-aspect-ratio: 1000/1000) and (max-aspect-ratio: 1000/550) and (orientation: landscape){
+    .assessoria-esportiva .titulo-1{
+        -webkit-animation: titulo-1 2s ease-in-out;
+        -moz-animation: titulo-1 2s ease-in-out;
+        animation: titulo-1 2s ease-in-out;
+        animation-delay: 3.3s;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    @-webkit-keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+
+    @-moz-keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+
+    @keyframes titulo-1 {
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+}
+
+
+/* TÍTULO 2 */
+
+.assessoria-esportiva .titulo-2{
+    -webkit-animation: titulo-2 2s ease-in-out;
+    -moz-animation: titulo-2 2s ease-in-out;
+    animation: titulo-2 2s ease-in-out;
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes titulo-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@-moz-keyframes titulo-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes titulo-2 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+
+/* TÍTULO 3 */
+
+.assessoria-esportiva .titulo-3{
+    -webkit-animation: titulo-3 2s ease-in-out;
+    -moz-animation: titulo-3 2s ease-in-out;
+    animation: titulo-3 2s ease-in-out;
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes titulo-3 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@-moz-keyframes titulo-3 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes titulo-3 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
