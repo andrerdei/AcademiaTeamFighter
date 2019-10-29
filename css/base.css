@@ -34,6 +34,13 @@ body input{
 -ms-tap-highlight-color: transparent;
 }
 
+body input img{
+-webkit-tap-highlight-color: transparent;
+-khtml-tap-highlight-color: transparent;
+-moz-tap-highlight-color: transparent;
+-ms-tap-highlight-color: transparent;
+}
+
 body .menu{
 -webkit-tap-highlight-color: transparent;
 -khtml-tap-highlight-color: transparent;
