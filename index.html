@@ -82,13 +82,13 @@
                             <img class= "img-3" src="img/info_image_3.png" alt="Informação Sobre o Produto">
                             <img class= "img-4" src="img/info_image_4.png" alt="Informação Sobre o Produto">
                         </ul>
-                        
                         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
-                            <input type="hidden" name="code" value="F75F952987875991141E4F87468D7490" />
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                            <input type="hidden" name="code" value="A57A07AE37371430048ECF838BE55B21" />
                             <input type="hidden" name="iot" value="button" />
                             <input type="image" src="img/pagseguro3_image.png" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                         </form>
+                        <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
                         <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
                     </div>
                 </div>
