@@ -64,13 +64,13 @@
 /* TRANSITION FUNDO IMG */
 
 .assessoria-esportiva .imagem-transition-fundo{
-    -webkit-animation: img-fundo 1.2s ease-in-out;
-    -moz-animation: img-fundo 1.2s ease-in-out;
+    -webkit-animation: img-fundo 1s ease-in-out;
+    -moz-animation: img-fundo 1s ease-in-out;
     animation: img-fundo 1s ease-in-out;
     animation-delay: 0s;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    animation-iteration-count: 6;
+    animation-iteration-count: 4;
 }
 
 @-webkit-keyframes img-fundo {
