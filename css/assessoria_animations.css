@@ -75,17 +75,17 @@
 
 @-webkit-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.02);}
+    100%{transform: scale(1.05);}
 }
 
 @-moz-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.02);}
+    100%{transform: scale(1.05);}
 }
 
 @keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.02);}
+    100%{transform: scale(1.05);}
 }
 
 /* FAIXA HORIZONTAL 1 */
