@@ -28,8 +28,8 @@
 /* TRANSITION FUNDO */
 
 .assessoria-esportiva .transition-fundo{
-    -webkit-animation: fundo 1.2s ease-in-out;
-    -moz-animation: fundo 1.2s ease-in-out;
+    -webkit-animation: fundo 3.2s ease-in-out;
+    -moz-animation: fundo 3.2s ease-in-out;
     animation: fundo 3.2s ease-in-out;
     animation-delay: 0s;
     animation-fill-mode: forwards;
@@ -70,22 +70,22 @@
     animation-delay: 0s;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: 6;
 }
 
 @-webkit-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.02);}
 }
 
 @-moz-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.02);}
 }
 
 @keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.02);}
 }
 
 /* FAIXA HORIZONTAL 1 */
