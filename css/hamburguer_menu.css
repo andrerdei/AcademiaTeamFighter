@@ -157,21 +157,21 @@
    transition-duration: 480ms;
    -webkit-transition-duration: 480ms;
    -webkit-transform: translate3d(-45px, 0px, 0);
-   transform: translate3d(-45px, 0px, 0);
+   transform: translate3d(-52px, 0px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(7) {
    transition-duration: 580ms;
    -webkit-transition-duration: 580ms;
    -webkit-transform: translate3d(-95px, 0px, 0);
-   transform: translate3d(-95px, 0px, 0);
+   transform: translate3d(-102px, 0px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(8) {
    transition-duration: 680ms;
    -webkit-transition-duration: 680ms;
    -webkit-transform: translate3d(-145px, 0px, 0);
-   transform: translate3d(-145px, 0px, 0);
+   transform: translate3d(-152px, 0px, 0);
 }
 
 .blue {
