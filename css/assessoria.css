@@ -815,3 +815,12 @@
         transition-timing-function: cubic-bezier(.2, 5, 0, 0);
     }
 }
+
+.parceiros-image{
+    position: absolute;
+    top: 80vh;
+    z-index: 10;
+    right: 10vw;
+    width: 100vh;
+    display: none;
+}
