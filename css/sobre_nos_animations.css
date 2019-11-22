@@ -77,8 +77,8 @@
 /* TRANSITION FUNDO */
 
 .sobre-nos .transition-fundo{
-    -webkit-animation: fundo 1.2s ease-in-out;
-    -moz-animation: fundo 1.2s ease-in-out;
+    -webkit-animation: fundo 3.2s ease-in-out;
+    -moz-animation: fundo 3.2s ease-in-out;
     animation: fundo 3.2s ease-in-out;
     animation-delay: 0s;
     animation-fill-mode: forwards;
@@ -113,8 +113,8 @@
 /* TRANSITION FUNDO IMG */
 
 .sobre-nos .imagem-transition-fundo{
-    -webkit-animation: img-fundo 1.2s ease-in-out;
-    -moz-animation: img-fundo 1.2s ease-in-out;
+    -webkit-animation: img-fundo 1s ease-in-out;
+    -moz-animation: img-fundo 1s ease-in-out;
     animation: img-fundo 1s ease-in-out;
     animation-delay: 0s;
     animation-fill-mode: forwards;
@@ -124,15 +124,15 @@
 
 @-webkit-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.05);}
 }
 
 @-moz-keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.05);}
 }
 
 @keyframes img-fundo {
     0% {transform: scale(1);}
-    100%{transform: scale(1.1);}
+    100%{transform: scale(1.05);}
 }

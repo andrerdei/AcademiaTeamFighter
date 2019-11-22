@@ -801,6 +801,30 @@ footer{
     width: 4vh;
 }
 
+.menu-redes-sociais-hamburguer{
+    position: relative;
+}
+
+.menu-redes-sociais-hamburguer img{
+    position: absolute;
+    top: 5px;
+    width: 35px;
+    z-index: -1;
+}
+
+.facebook-icone-hamburguer img{
+    left: -162px;
+}
+
+.instagram-icone-hamburguer img{
+    left: -116px;
+}
+
+.whatsapp-icone-hamburguer img{
+    left: -70px;
+}
+
+
 /* Fixed Background */
 
 .fixed-background{

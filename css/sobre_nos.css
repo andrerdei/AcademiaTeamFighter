@@ -138,13 +138,13 @@
 
 @media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
     .sobre-nos .imagem-motivacional-1-div{
-        top: 2.8vh
+        top: 12.5vh
     }
 }
 
 @media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
     .sobre-nos .imagem-motivacional-1-div{
-        top: 6.9vh
+        top: 10.9vh
     }
 }
 
@@ -156,13 +156,13 @@
 
 @media screen and (min-aspect-ratio: 650/1000) and (max-aspect-ratio: 1000/1000) and (orientation: portrait){
     .sobre-nos .imagem-motivacional-1{
-        width: 40vh;
+        width: 28vh;
     }
 }
 
 @media screen and (min-aspect-ratio: 400/1000) and (max-aspect-ratio: 650/1000) and (orientation: portrait){
     .sobre-nos .imagem-motivacional-1{
-        width: 35vh;
+        width: 30vh;
     }
 }
 

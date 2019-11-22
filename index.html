@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/hamburguer_menu.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/index_animations.css">
+        <!--
+        <link rel="stylesheet" href="css/spinner.css">
+        -->
         <link rel="stylesheet" href="css/animsition.min.css">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -49,6 +52,17 @@
                     <a href="index.html" class="menu-item purple animsition-link"><img class="menu-item purple" src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></a>
                     <a href="sobre_nos.html" class="menu-item orange animsition-link"><img class="menu-item orange" src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a>
                     <a href="assessoria.html" class="menu-item lightblue animsition-link"><img class="menu-item lightblue" src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></a>
+                    <ul class="menu-redes-sociais-hamburguer">
+                    <li class="facebook-icone-hamburguer">
+                        <a href="https://www.facebook.com/TeamFighterFitness/" target="_blank"><img src="img/facebook_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="instagram-icone-hamburguer">
+                        <a href="https://www.instagram.com/fabioparoloprl/?hl=pt-br" target="_blank"><img src="img/instagram_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="whatsapp-icone-hamburguer">
+                        <a href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank"><img src="img/whatsapp_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                </ul>
                 </nav>
             </section>
         </header>
@@ -66,7 +80,25 @@
                     <div class="faixa-piramide-3"></div>
                     <div class="faixa-piramide-2"></div>
                     <div class="faixa-piramide-1"></div>
-                    <div class="transition-fundo"><img class="imagem-transition-fundo" src="img/logo_page.png"></div>     
+                    <div class="transition-fundo">
+                       <!--
+                        <section class="wrapper">
+                            <div class="spinner">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </section>
+                        -->
+                        <img class="imagem-transition-fundo" src="img/logo_page.png">
+                    </div>     
                     <div class="container-inner background-interno-1">
                         <img class="titulo-1" src="img/titulo_image_1.png" alt="Título da Página">
                         <ul class="info-lista">
@@ -84,8 +116,8 @@
                         </ul>
                         
                         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
-                            <input type="hidden" name="code" value="F75F952987875991141E4F87468D7490" />
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" target="_blank">
+                            <input type="hidden" name="code" value="2810BF22C1C1F82EE46D6FAF9CC2C0AE" />
                             <input type="hidden" name="iot" value="button" />
                             <input type="image" src="img/pagseguro3_image.png" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                         </form>
@@ -108,7 +140,6 @@
                 </li>
             </ul>
         </footer>
-        
         
     </body>
 </html>

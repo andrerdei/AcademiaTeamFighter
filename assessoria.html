@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/hamburguer_menu.css">
         <link rel="stylesheet" href="css/assessoria.css">
         <link rel="stylesheet" href="css/assessoria_animations.css">
+        <!--
+        <link rel="stylesheet" href="css/spinner.css">
+        -->
         <link rel="stylesheet" href="css/animsition.min.css">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -31,14 +34,14 @@
                 <img class="logo-pagina" src="img/logo_page.png" alt="Logotipo da Academia">
             </section>
             <section class="nav-header">
-            <nav class="menu-navegacao">
-                <ul> 
-                    <li class="primeira-secao"><a href="index.html" class="animsition-link"><img src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></a></li>
-                    <li class="segunda-secao"><a href="sobre_nos.html" class="animsition-link"><img src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a></li>
-                    <li class="terceira-secao"><img src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></li>
-                </ul>
-            </nav>
-            <nav class="menu menu-hamburguer">
+                <nav class="menu-navegacao">
+                    <ul> 
+                        <li class="primeira-secao"><a href="index.html" class="animsition-link"><img src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></a></li>
+                        <li class="segunda-secao"><a href="sobre_nos.html" class="animsition-link"><img src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a></li>
+                        <li class="terceira-secao"><img src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></li>
+                    </ul>
+                </nav>
+                <nav class="menu menu-hamburguer">
                     <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
                     <label class="menu-open-button" for="menu-open">
                         <span class="lines line-1"></span>
@@ -51,6 +54,17 @@
                     <a href="index.html" class="menu-item purple animsition-link"><img class="menu-item purple" src="img/icon_first_section.jpg" alt="Icone do Menu de Navegação"></a>
                     <a href="sobre_nos.html" class="menu-item orange animsition-link"><img class="menu-item orange" src="img/icon_second_section.jpg" alt="Icone do Menu de Navegação"></a>
                     <a href="assessoria.html" class="menu-item lightblue animsition-link"><img class="menu-item lightblue" src="img/icon_third_section.jpg" alt="Icone do Menu de Navegação"></a>
+                    <ul class="menu-redes-sociais-hamburguer">
+                    <li class="facebook-icone-hamburguer">
+                        <a href="https://www.facebook.com/TeamFighterFitness/" target="_blank"><img src="img/facebook_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="instagram-icone-hamburguer">
+                        <a href="https://www.instagram.com/fabioparoloprl/?hl=pt-br" target="_blank"><img src="img/instagram_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="whatsapp-icone-hamburguer">
+                        <a href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank"><img src="img/whatsapp_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                </ul>
                 </nav>
             </section>
         </header>
@@ -61,7 +75,25 @@
                      data-animsition-in-class="fade-in" data-animsition-in-duration="500"
                      data-animsition-out-class="fade-out" data-animsition-out-duration="1000">
                 <div class="background-image-2 fixed-background">
-                    <div class="transition-fundo"><img class="imagem-transition-fundo" src="img/logo_page.png"></div>
+                    <div class="transition-fundo">
+                        <!--
+                        <section class="wrapper">
+                            <div class="spinner">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </section>
+                        -->
+                        <img class="imagem-transition-fundo" src="img/logo_page.png">
+                    </div>
                     <div class="container-inner background-interno-2">
                         <div class="faixa-horizontal-2"></div>
                         <div class="faixa-horizontal-1"></div>
@@ -74,23 +106,29 @@
                         <a class="whatsapp-image-link" href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank">
                             <img class="whatsapp-image" src="img/whatsapp_image.png" alt="Informações Sobre o Profissional">
                         </a>
+                        <div class="parceiros-image-div">
+                            <img class="parceiros-image-1" src="img/parceiros_image_1.png" alt="Informações Sobre os Parceiros">
+                            <img class="parceiros-image-2" src="img/parceiros_image_2.png" alt="Informações Sobre os Parceiros">
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
         
         <footer>
-            <ul class="menu-redes-sociais">
-                <li class="facebook-icone">
-                    <a href="https://www.facebook.com/TeamFighterFitness/" target="_blank"><img src="img/facebook_icon.png" alt="Icone de Rede Social"></a>
-                </li>
-                <li class="instagram-icone">
-                    <a href="https://www.instagram.com/fabioparoloprl/?hl=pt-br" target="_blank"><img src="img/instagram_icon.png" alt="Icone de Rede Social"></a>
-                </li>
-                <li class="whatsapp-icone">
-                    <a href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank"><img src="img/whatsapp_icon.png" alt="Icone de Rede Social"></a>
-                </li>
-            </ul>
+           <section>
+                <ul class="menu-redes-sociais">
+                    <li class="facebook-icone">
+                        <a href="https://www.facebook.com/TeamFighterFitness/" target="_blank"><img src="img/facebook_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="instagram-icone">
+                        <a href="https://www.instagram.com/fabioparoloprl/?hl=pt-br" target="_blank"><img src="img/instagram_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                    <li class="whatsapp-icone">
+                        <a href="https://api.whatsapp.com/send?phone=5511978055190&text=Academia%20Team%20Fighter%20Fitness" target="_blank"><img src="img/whatsapp_icon.png" alt="Icone de Rede Social"></a>
+                    </li>
+                </ul>
+            </section>
         </footer>
     </body>
 </html>

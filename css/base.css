@@ -13,32 +13,40 @@ body{
     overflow: hidden;
 }
 
+body:focus{
+    outline: none;
+}
+
 body a{
--webkit-tap-highlight-color: transparent;
--khtml-tap-highlight-color: transparent;
--moz-tap-highlight-color: transparent;
--ms-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
 }
 
 body img{
--webkit-tap-highlight-color: transparent;
--khtml-tap-highlight-color: transparent;
--moz-tap-highlight-color: transparent;
--ms-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
 }
 
 body input{
--webkit-tap-highlight-color: transparent;
--khtml-tap-highlight-color: transparent;
--moz-tap-highlight-color: transparent;
--ms-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+body input:focus{
+    outline: none;
 }
 
 body .menu{
--webkit-tap-highlight-color: transparent;
--khtml-tap-highlight-color: transparent;
--moz-tap-highlight-color: transparent;
--ms-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
 }
 
 .container{
