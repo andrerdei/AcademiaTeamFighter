@@ -12,11 +12,12 @@
     transition: 1.2s;
 }
 
-.programa-emagrecimento form input:hover{
-    box-shadow: inset 0vh 0vh 1000vh 1000vh rgba(0,0,0,.5),
-                0vh 0vh 1000vh 1000vh rgba(0,0,0,.5);
+@media screen and (hover: hover){
+    .programa-emagrecimento form input:hover{
+        box-shadow: inset 0vh 0vh 1000vh 1000vh rgba(0,0,0,.5),
+                    0vh 0vh 1000vh 1000vh rgba(0,0,0,.5);
+    }
 }
-
 
 /* @medias 'retrato' (form-pagseguro) */
 
